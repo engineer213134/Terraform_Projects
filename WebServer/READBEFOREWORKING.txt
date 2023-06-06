@@ -1,0 +1,20 @@
+This is the read me file
+
+Main Goal, Building a Webserver with a ASG and a ELB see https://hands-on.cloud/terraform-recipe-managing-auto-scaling-groups-and-load-balancers/
+
+
+Currently working on the modules folder to create the ELB and ASG
+
+May 31st: Working on ASG main.tf
+
+#TODO:
+1) Left off on several things: Need to create security group folder for ASG ----> Completed
+2) Need to connect both ASG and ELB together in a terragrunt fashion ----> Completed
+
+
+June 5th: 
+
+#Completed:
+Finished security group for the ASG
+Added variables to the ELB security group
+Referanced the ELB in the ASG
