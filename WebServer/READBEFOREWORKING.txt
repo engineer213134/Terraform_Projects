@@ -18,3 +18,9 @@ June 5th:
 Finished security group for the ASG
 Added variables to the ELB security group
 Referanced the ELB in the ASG
+
+#TODO:
+1) Look at what a load balancer DNS name is for output see article 
+2) Configure Autoscaling policys
+3) Configure the VPC
+4) Once the above 3 are finished double check the modules and start building the terragrunt file
